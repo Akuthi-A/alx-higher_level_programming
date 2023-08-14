@@ -14,7 +14,5 @@ def new_in_list(my_list, idx, element):
     for i in range(length):
         if (i == idx):
             cp_list[idx] = element
-    
+
     return cp_list
-
-
