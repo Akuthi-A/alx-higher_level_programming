@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""
+square class
+"""
 class Square:
     """blueprint of a square."""
 
