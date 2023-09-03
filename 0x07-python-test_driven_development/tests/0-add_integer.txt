@@ -1,0 +1,17 @@
+The ''add'' module
+=====================
+
+Using ''add-integer''
+-----------------------
+
+This is a doc text file for the add_integer modules.
+First import add_integer from 0-add_integer.
+
+Now use it as:
+
+	>>> add_integer(1, 2)
+	3
+	>>> add_integer(-1, -1)
+	-2
+	>>> add_integer(100, -2)
+	98
