@@ -1,13 +1,13 @@
-The ''add'' module
-=====================
+The ''add_integer'' module
+==========================
 
-Using ''add-integer''
+-----------------------
+Using ''add_integer''
 -----------------------
 
-This is a doc text file for the add_integer modules.
+This is a doc text file for the add_integer module.
 First import add_integer from 0-add_integer.
-
-Now use it as:
+	>>> add_integer = __import__('0-add_integer').add_integer
 
 	>>> add_integer(1, 2)
 	3
