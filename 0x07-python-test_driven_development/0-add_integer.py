@@ -3,6 +3,16 @@
 def add_integer(a, b=98):
     """
     takes the sum of two integers
+
+    args
+	a (int or float): num1
+	b (int or float): num2
+
+    Returns:
+	sum of a and b (a + b)
+
+    Raises:
+	TypeError: raised if input is not a number
     """
 
     if type(a) not in [int, float]:
