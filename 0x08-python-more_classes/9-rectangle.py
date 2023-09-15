@@ -89,7 +89,7 @@ class Rectangle:
         if (self.__width == 0) or (self.__height == 0):
             return 0
 
-        return ( (2 * self.__width) + (2 * self.__height))
+        return ((2 * self.__width) + (2 * self.__height))
 
     def __str__(self):
         rectangle = ""
@@ -135,7 +135,7 @@ class Rectangle:
     def square(cls, size=0):
         """
         returns an instance of Rectangle that is a square (width = height)
-        
+
         Args:
             size (int): size of the sides
         """
