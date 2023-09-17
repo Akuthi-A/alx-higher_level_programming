@@ -8,7 +8,7 @@ class BaseGeometry:
     """
     Blueprint for BaseGeometry
     """
-    
+
     def area(self):
         """
         function that's supposed to implement computation of area
@@ -26,7 +26,7 @@ class BaseGeometry:
             TypeError: if value is not an integer
             ValueError: if value is less than 0
         """
-        
+
         if not isinstance(value, int):
             raise TypeError(f"{name} must be an integer")
         elif value <= 0:

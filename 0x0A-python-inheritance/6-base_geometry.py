@@ -8,7 +8,7 @@ class BaseGeometry:
     """
     Blueprint for BaseGeometry
     """
-    
+
     def area(self):
         """
         function that's supposed to implement computation of area
