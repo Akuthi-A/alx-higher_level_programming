@@ -5,7 +5,7 @@ that inherits from the Base class
 """
 
 
-from .base import Base
+from base import Base
 
 class Rectangle(Base):
     """
@@ -180,6 +180,3 @@ class Rectangle(Base):
             "x": self.x,
             "y": self.y
         }
-
-if __name__ == "__main__":
-    
