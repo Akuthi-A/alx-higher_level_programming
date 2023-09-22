@@ -7,6 +7,7 @@ that inherits from the Base class
 
 from models.base import Base
 
+
 class Rectangle(Base):
     """
     Rectangle class that inherits from Base
@@ -33,7 +34,7 @@ class Rectangle(Base):
 
         Args:
             value (int): value of the width
-        
+
         Raises:
             TypeError: if value is not an integer
             ValueError: if value < 0
@@ -51,7 +52,7 @@ class Rectangle(Base):
         setter function for height
         """
         return (self.__height)
-    
+
     @height.setter
     def height(self, value):
         """
@@ -138,7 +139,8 @@ class Rectangle(Base):
             print()
 
     def __str__(self):
-        return f"[Rectangle] ({self.__id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
+        return f"[Rectangle] ({self.__id}) {self.__x}/{self.__y}
+    - {self.__width}/{self.__height}"
 
     def update(self, *args, **kwargs):
         """
